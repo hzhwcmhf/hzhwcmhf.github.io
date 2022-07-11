@@ -27,8 +27,8 @@ Publications
 **Conference Papers**
 
 * **Fei Huang**, Hao Zhou, Yang Liu, Hang Li, Minlie Huang. *Directed Acyclic Transformer for Non-Autoregressive Machine Translation.* **ICML 2022 (CCF-A, Long Paper, Patent Pending).** [[Paper]](https://arxiv.org/abs/2205.07459) [[Code]](https://github.com/thu-coai/DA-Transformer)
-* **Fei Huang**, Tianhua Tao, Hao Zhou, Lei Li, Minlie Huang. *On the Learning of Non-Autoregressive Transformers.* **ICML 2022 (CCF-A, Long Paper)** [[Paper]](https://arxiv.org/abs/2206.05975)
-* **Fei Huang**, Zikai Chen, Chen Henry Wu, Qihan Guo, Xiaoyan Zhu, Minlie Huang. *NAST: A Non-Autoregressive Generator with Word Alignment for Unsupervised Text Style Transfer.* **Findings of ACL 2021 (Long Paper, Patent Pending).** [][Paper](https://aclanthology.org/2021.findings-acl.138/) [[Code]](https://github.com/thu-coai/NAST)
+* **Fei Huang**, Tianhua Tao, Hao Zhou, Lei Li, Minlie Huang. *On the Learning of Non-Autoregressive Transformers.* **ICML 2022 (CCF-A, Long Paper).** [[Paper]](https://arxiv.org/abs/2206.05975)
+* **Fei Huang**, Zikai Chen, Chen Henry Wu, Qihan Guo, Xiaoyan Zhu, Minlie Huang. *NAST: A Non-Autoregressive Generator with Word Alignment for Unsupervised Text Style Transfer.* **Findings of ACL 2021 (Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/2021.findings-acl.138/) [[Code]](https://github.com/thu-coai/NAST)
 * Yilin Niu#, **Fei Huang#**, Jiaming Liang, Wenkai Chen, Xiaoyan Zhu, Minlie Huang. *A Semantic-based Method for Unsupervised Commonsense Question Answering.* **ACL 2021 (Co-first Author, CCF-A, Long Paper).** [[Paper]](https://aclanthology.org/2021.acl-long.237/) [[Code]](https://github.com/heyLinsir/Semantic-based-QA)
 * Pei Ke#, **Fei Huang#**, Minlie Huang, Xiaoyan Zhu. *ARAML: A Stable Adversarial Training Framework for Text Generation.* **ACL 2021 (Co-first Author, CCF-A, Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/D19-1436/) [[Code]](https://github.com/kepei1106/ARAML)
 
@@ -48,23 +48,24 @@ Publications
 Experience
 ======
 
-- **2021.3 - 2022.5**: NLP Research Intern at ByteDance AI Lab
-
-	* Aim at developing new paradigms for language generation, mainly focusing on **non-autoregressive generators**.
-	* Theoretically analyze the learning of non-autoregressive generators. ([Paper Link](https://arxiv.org/abs/2206.05975))
-	* Empirically improve the generation quality of non-autoregressive generators, first showing that a non-autoregressive generator can *outperform the vanilla Transformer in quality and achieve 7~14 times speedup in decoding*. ([Paper Link](https://arxiv.org/abs/2205.07459))
-	* Provide an open-source framework for highly efficient training and inference, including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
-	* **Two paper published and one patent pending**.
-
-- **2018.11 - 2020.8** : Leader of Open-Source Toolkit Development for Text Generation
-  - CoTK toolkit: An open-source python library for fast development and fair evaluation of text generation. ([Github Link](https://github.com/thu-coai/cotk), 121 stars.)
-  - It provides unified APIs for different datasets, a signature mechanism to avoid unfair comparisons in evaluation, and implementations for text generation models.
+- **2021.3 - 2022.5: NLP Research Intern at ByteDance AI Lab**
+  - **Aims**: Developing new paradigms for language generation, mainly focusing on **non-autoregressive text generation**.
+  - **Theory Contribution**: I analyze the learning of non-autoregressive generators. ([Paper Link](https://arxiv.org/abs/2206.05975))
+  - **Empirical Contribution**: I propose a new model that remarkably improves the generation quality of non-autoregressive generators. (*+3 BLEU, outperform the vanilla Transformer and achieve 7~14 times decoding speedup.*)  ([Paper Link](https://arxiv.org/abs/2205.07459))
+  - **Open-source Framework**: Provide highly efficient training and inference with modified [Lightseq](https://github.com/bytedance/lightseq), including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
+  - **Two paper published and one patent pending**.
+- **2018.11 - 2020.8 : Leader of Open-Source Toolkit Development for Text Generation**
+  - CoTK toolkit: An open-source python library for fast development and fair evaluation of text generation. ([[Github Link]](https://github.com/thu-coai/cotk), 121 stars.)
+  - It provides unified APIs for different datasets, a signature mechanism to avoid unfair comparisons in evaluation, and implementations for many text generation models.
   - I act as a leader in this project and work with 5 other students of the CoAI group. I design and implement the main framework of the toolkit. 
-
-- **2016.4 - 2016.8**: Exchange Student at Tokyo University, Japan
-
-	* I studied at the department of information science and took courses mainly about machine learning.
-	* Fully sponsored by China Scholarship Council.
+- **2019.9 - 2020.9:  Student Author for the Book *Modern Natural Language Generation* **
+  - I wrote Chapter 6 (Generative Adversarial Networks for Language Generation), Chapter 7 (Non-Autoregressive Text Generation), and part of Chapter 10 (Tasks and Resources for Language Generation) and Chapter 11 (Evaluation for Language Generation). I also proofread and revise the other chapters.
+- **2019.9 - Present: Sub-group Leader for Natural Language Generation (NLG) in the CoAI group.**
+  - I mainly coordinate weekly discussions and academic presentations in the sub-group. I actively exchange ideas with the other members and provide suggestions for the research projects.
+  - We have five Ph.D. students and research about non-autoregressive generation model, the bias in language model, long text generation, pretrained language model, and the evaluation of NLG.
+- **2016.4 - 2016.8: Exchange Student at Tokyo University, Japan**
+  - I studied at the department of information science and took courses mainly about machine learning.
+  - Fully sponsored by China Scholarship Council.
 
 Awards
 =====
