@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,96 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a Ph.D. student in [CoAI Group](http://coai.cs.tsinghua.edu.cn/), Department of Computer Science and Technology, Tsinghua University. My adviser is [Prof.Minlie Huang](http://coai.cs.tsinghua.edu.cn/hml).
 
-A data-driven personal website
+I am particularly interested in
+
+* Natural Language Generation
+* Non-Autoregressive Text Generation
+
+Education 
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- **2018.8 - Present**: Ph.D. Student, Department of Computer Science and Technology, Tsinghua University (Scholarship for Future Scholars, Top 3% of Ph.D. Students at Tsinghua Univ.)
+- **2014.9 - 2018.7**: B.Eng., Department of Computer Science and Technology, Tsinghua University. (GPA: 93/100, Rank: 3/151)
 
-Getting started
+Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**Conference Papers**
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* **Fei Huang**, Hao Zhou, Yang Liu, Hang Li, Minlie Huang. *Directed Acyclic Transformer for Non-Autoregressive Machine Translation.* **ICML 2022 (CCF-A, Long Paper, Patent Pending).** [[Paper]](https://arxiv.org/abs/2205.07459) [[Code]](https://github.com/thu-coai/DA-Transformer)
+* **Fei Huang**, Tianhua Tao, Hao Zhou, Lei Li, Minlie Huang. *On the Learning of Non-Autoregressive Transformers.* **ICML 2022 (CCF-A, Long Paper)** [[Paper]](https://arxiv.org/abs/2206.05975)
+* **Fei Huang**, Zikai Chen, Chen Henry Wu, Qihan Guo, Xiaoyan Zhu, Minlie Huang. *NAST: A Non-Autoregressive Generator with Word Alignment for Unsupervised Text Style Transfer.* **Findings of ACL 2021 (Long Paper, Patent Pending).** [][Paper](https://aclanthology.org/2021.findings-acl.138/) [[Code]](https://github.com/thu-coai/NAST)
+* Yilin Niu#, **Fei Huang#**, Jiaming Liang, Wenkai Chen, Xiaoyan Zhu, Minlie Huang. *A Semantic-based Method for Unsupervised Commonsense Question Answering.* **ACL 2021 (Co-first Author, CCF-A, Long Paper).** [[Paper]](https://aclanthology.org/2021.acl-long.237/) [[Code]](https://github.com/heyLinsir/Semantic-based-QA)
+* Pei Ke#, **Fei Huang#**, Minlie Huang, Xiaoyan Zhu. *ARAML: A Stable Adversarial Training Framework for Text Generation.* **ACL 2021 (Co-first Author, CCF-A, Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/D19-1436/) [[Code]](https://github.com/kepei1106/ARAML)
 
-**Markdown generator**
+**Journal Paper**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+* Jian Guan, **Fei Huang**, Zhihao Zhao, Xiaoyan Zhu, Minlie Huang. *A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation.* **TACL 2020 (IF=9.2, 104 Citations).**  [[Paper]](https://aclanthology.org/2020.tacl-1.7/) [[Code]](https://github.com/JianGuanTHU/CommonsenseStoryGen)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**Book**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* 黄民烈, **黄斐**, 朱小燕. *现代自然语言生成 (Modern Natural Language Generation).* 北京:电子工业出版社,2021. [[Preview]](https://github.com/thu-coai/NLG_book)
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Preprints**
+
+* **Fei Huang**, Dazhen Wan, Zhihong Shao, Pei Ke, Jian Guan, Yilin Niu, Xiaoyan Zhu, Minlie Huang. *Cotk: An open-source toolkit for fast development and fair evaluation of text generation.* 2020. **(Toolkit Paper. 121 Stars on Github.)** [[Paper]](https://arxiv.org/pdf/2002.00583.pdf) [[Code]](https://github.com/thu-coai/cotk)
+* **Fei Huang**, Jian Guan, Pei Ke, Qihan Guo, Xiaoyan Zhu, Minlie Huang. *A text GAN for language generation with non-autoregressive generator.* 2020. [[Paper]](https://openreview.net/pdf?id=wOI9hqkvu_)
+
+Experience
+======
+
+- **2021.3 - 2022.5**: NLP Research Intern at ByteDance AI Lab
+
+	* Aim at developing new paradigms for language generation, mainly focusing on **non-autoregressive generators**.
+	* Theoretically analyze the learning of non-autoregressive generators. ([Paper Link](https://arxiv.org/abs/2206.05975))
+	* Empirically improve the generation quality of non-autoregressive generators, first showing that a non-autoregressive generator can *outperform the vanilla Transformer in quality and achieve 7~14 times speedup in decoding*. ([Paper Link](https://arxiv.org/abs/2205.07459))
+	* Provide an open-source framework for highly efficient training and inference, including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
+	* **Two paper published and one patent pending**.
+
+- **2018.11 - 2020.8** : Leader of Open-Source Toolkit Development for Text Generation
+  - CoTK toolkit: An open-source python library for fast development and fair evaluation of text generation. ([Github Link](https://github.com/thu-coai/cotk), 121 stars.)
+  - It provides unified APIs for different datasets, a signature mechanism to avoid unfair comparisons in evaluation, and implementations for text generation models.
+  - I act as a leader in this project and work with 5 other students of the CoAI group. I design and implement the main framework of the toolkit. 
+
+- **2016.4 - 2016.8**: Exchange Student at Tokyo University, Japan
+
+	* I studied at the department of information science and took courses mainly about machine learning.
+	* Fully sponsored by China Scholarship Council.
+
+Awards
+=====
+
+* 2018-Present: Scholarship for Future Scholars (Top 3% of Ph.D. Student at Tsinghua University, 30,000 RMB / year)
+* 2015-2017: Academic Excellence Scholarship (3,000 ~ 6,000 RMB / year)
+* 2014: Second Class Scholarship for Undergraduate Freshmen (5,000 RMB / year)
+* 2013: Gold Medal in National Olympiad in Informatics (NOI) (Rank 5)
+
+Skills
+=====
+
+* Programming Language: Python, C++
+* Deep Learning Framework: PyTorch, Tensorflow. I can implement custom operations with Cuda and C++ and maintained a open-source toolkit for language generation.
+* Algorithm: I am good at algorithms and won gold medal in NOI programming contest when I am a high school student. I am familiar with Dynamic Programming, Data Structures, Graph Theory, etc.
+* Language: Chinese (Native Speaker), English (CET-6 518), Japanese (N1 129)
+
+Teaching
+=====
+
+* Artificial Neural Network (Undergraduate Course at Tsinghua University):
+	* 2019,2022: Teaching Assistant; 2020,2021: Head TA
+	* Help the professor in preparing slides and homework. Give lessons about generative adversarial network and text generation.
+
+* Object-Oriented Programming (Undergraduate Course at Tsinghua University):
+	* 2018: Teaching Assistant; 2019-2021: Head TA; 2022: Honorary TA
+	* Help the professor in preparing slides, homework, and examinations. Develop and maintain a website for online programming exercise.
+
+
+Services
+=====
+
+* Conference Reviewer: ACL/ARR(2021-2022), EMNLP(2021-2022), NLPCC(2022)
+* Journal Reviewer: TNNLS, TASLP
+
+
