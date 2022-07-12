@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in [CoAI Group](http://coai.cs.tsinghua.edu.cn/), Department of Computer Science and Technology, Tsinghua University. My adviser is [Prof.Minlie Huang](http://coai.cs.tsinghua.edu.cn/hml).
+I am a Ph.D. candidate in [CoAI Group](http://coai.cs.tsinghua.edu.cn/), Department of Computer Science and Technology, Tsinghua University. My adviser is [Prof.Minlie Huang](http://coai.cs.tsinghua.edu.cn/hml).
 
 I am particularly interested in
 
@@ -18,7 +18,7 @@ I am particularly interested in
 Education 
 ======
 
-- **2018.8 - Present**: Ph.D. Student, Department of Computer Science and Technology, Tsinghua University (Scholarship for Future Scholars, Top 3% of Ph.D. Students at Tsinghua Univ.)
+- **2018.8 - 2023.7 (Expected)**: Ph.D., Department of Computer Science and Technology, Tsinghua University (Scholarship for Future Scholars, Top 3% of Ph.D. Students at Tsinghua Univ.)
 - **2014.9 - 2018.7**: B.Eng., Department of Computer Science and Technology, Tsinghua University. (GPA: 93/100, Rank: 3/151.)
 - **2016.4-2016.8**: Exchange Student at Tokyo University, Japan. (Fully sponsored by China Scholarship Council.)
 
@@ -51,19 +51,19 @@ Experience
 
 - **2021.3 - 2022.5: NLP Research Intern at ByteDance AI Lab**
   - **Aims**: Developing new paradigms for language generation, mainly focusing on **non-autoregressive text generation**.
-  - **Theory Contribution**: I reveal the theoretical challenges in the learning of non-autoregressive generators and propose a unified perspective to understand existing training objectives. ([Paper Link](https://arxiv.org/abs/2206.05975))
-  - **Empirical Contribution**: I propose a new model that remarkably improves the generation quality of non-autoregressive generators. (*+3 BLEU, outperform the vanilla Transformer and achieve 7~14 times decoding speedup.*)  ([Paper Link](https://arxiv.org/abs/2205.07459))
-  - **Open-source Framework**: I develop a framework with highly efficient training and inference based on [Lightseq](https://github.com/bytedance/lightseq), including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
-  - **Two paper published and one patent pending**.
-- **2018.11 - 2020.8 : Leader of Open-Source Toolkit Development for Text Generation**
-  - CoTK: An open-source python library for fast development and fair evaluation of text generation. ([[Github Link]](https://github.com/thu-coai/cotk), 121 stars.)
+  - **Theory Contribution**: I revealed the theoretical challenges in the learning of non-autoregressive generators and proposed a unified perspective to understand existing training objectives. ([Paper Link](https://arxiv.org/abs/2206.05975))
+  - **Empirical Contribution**: I proposed a new model that remarkably improves the generation quality of non-autoregressive generators. (*+3 BLEU, outperform the vanilla Transformer and achieve 7~14 times decoding speedup.*)  ([Paper Link](https://arxiv.org/abs/2205.07459))
+  - **Open-source Framework**: I developed a framework with highly efficient training and inference based on [Lightseq](https://github.com/bytedance/lightseq), including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
+  - **Two papers are published and one patent is pending**.
+- **2018.11 - 2020.8: Leader of Open-Source Toolkit Development for Text Generation**
+  - CoTK: An open-source python library for fast development and fair evaluation of text generation. ([Github Link](https://github.com/thu-coai/cotk), 121 stars.)
   - It provides unified APIs for different datasets, a signature mechanism to avoid unfair comparisons in evaluation, and implementations for many text generation models.
-  - I act as a group leader in this project and work with 5 other students of the CoAI group. I design the API, maintain the developing process, and implement parts of the toolkit including dataset I/O, models, and evaluation. 
-- **2019.9 - 2020.9:  Student Author for the Book "Modern Natural Language Generation" **
+  - I led this project and worked with 5 other students of the CoAI group. I designed the API, maintained the developing process, and implemented parts of the toolkit including dataset I/O, models, and evaluation. 
+- **2019.9 - 2020.9:  Student Author for the Book -- Modern Natural Language Generation**
   - This book is the first Chinese book that introduces various deep learning methods in natural language generation.
   - I mainly wrote Chapter 6 (Generative Adversarial Networks for Language Generation), Chapter 7 (Non-Autoregressive Text Generation), and part of Chapter 10 (Tasks and Resources for Language Generation) and Chapter 11 (Evaluation for Language Generation).
 - **2019.9 - Present: Sub-group Leader for Natural Language Generation (NLG) in the CoAI group.**
-  - Our sub-group has five Ph.D. students and several undergraduates. We aim at resolving the critical problems in NLG. Our research topics include non-autoregressive generation model, the bias in language model, long text generation, pretrained language model, and the evaluation of NLG. Our members publish 17 papers as the first author in this 3 years, including 7 in CCF-A and 3 in CCF-B.
+  - Our sub-group consists of five Ph.D. students and several undergraduates. We aim at resolving critical problems in NLG. Our research topics include non-autoregressive generation, bias in language models, long text generation, pretrained language models, and the evaluation of NLG. Our members publish 17 papers as the first author in these three years, including 7 in CCF-A and 3 in CCF-B.
   - I coordinate weekly discussions and academic presentations in the sub-group. I also help the management of research plans and actively provide suggestions for the projects. I also lead many projects working with undergraduates.
 
 Awards
@@ -79,7 +79,7 @@ Skills
 
 * **Programming Language**: Python, C++
 * **Skills of Deep Learning**: 
-  * Framework & Library: PyTorch, Tensorflow, Fairseq, LightSeq, etc.
+  * I am familiar with various deep learning frameworks and toolkits, e.g., PyTorch, Tensorflow, Fairseq, LightSeq.
   * I can implement operations with Cuda to accelerate training and inference.
 * **Algorithm**: I am good at algorithms, e.g., Dynamic Programming, Data Structures, Graph Theory.
 * **Language**: Chinese (Native Speaker), English (CET-6 518), Japanese (JLPT-N1)
@@ -89,14 +89,14 @@ Teaching
 
 * **Artificial Neural Network** (Undergraduate Course at Tsinghua University):
 	* 2018,2021: Teaching Assistant; 2019,2020: Head TA
-	* Give lessons about generative adversarial network and text generation.
-* Help the professor in preparing slides and homework. 
+	* Give lectures about generative adversarial networks and text generation.
+	* Help the professor in preparing slides and homework. 
 	
 * **Object-Oriented Programming** (Undergraduate Course at Tsinghua University):
 	* 2018: Teaching Assistant; 2019-2021: Head TA; 2022: Honorary TA
-	* Give lessons about the basic of programming and operation system.
+	* Give lectures about the fundamental of programming and operating system.
 	* Help the professor in preparing slides, homework, and examinations.
-	* Develop and maintain a website for online programming exercise.
+	* Develop and maintain a website for online programming exercises.
 
 
 Services
