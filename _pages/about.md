@@ -19,7 +19,8 @@ Education
 ======
 
 - **2018.8 - Present**: Ph.D. Student, Department of Computer Science and Technology, Tsinghua University (Scholarship for Future Scholars, Top 3% of Ph.D. Students at Tsinghua Univ.)
-- **2014.9 - 2018.7**: B.Eng., Department of Computer Science and Technology, Tsinghua University. (GPA: 93/100, Rank: 3/151)
+- **2014.9 - 2018.7**: B.Eng., Department of Computer Science and Technology, Tsinghua University. (GPA: 93/100, Rank: 3/151.)
+- **2016.4-2016.8**: Exchange Student at Tokyo University, Japan. (Fully sponsored by China Scholarship Council.)
 
 Publications
 ======
@@ -34,7 +35,7 @@ Publications
 
 **Journal Paper**
 
-* Jian Guan, **Fei Huang**, Zhihao Zhao, Xiaoyan Zhu, Minlie Huang. *A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation.* **TACL 2020 (IF=9.2, 104 Citations).**  [[Paper]](https://aclanthology.org/2020.tacl-1.7/) [[Code]](https://github.com/JianGuanTHU/CommonsenseStoryGen)
+* Jian Guan, **Fei Huang**, Zhihao Zhao, Xiaoyan Zhu, Minlie Huang. *A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation.* **TACL, 2020 (IF=9.2, 104 Citations).**  [[Paper]](https://aclanthology.org/2020.tacl-1.7/) [[Code]](https://github.com/JianGuanTHU/CommonsenseStoryGen)
 
 **Book**
 
@@ -50,55 +51,58 @@ Experience
 
 - **2021.3 - 2022.5: NLP Research Intern at ByteDance AI Lab**
   - **Aims**: Developing new paradigms for language generation, mainly focusing on **non-autoregressive text generation**.
-  - **Theory Contribution**: I analyze the learning of non-autoregressive generators. ([Paper Link](https://arxiv.org/abs/2206.05975))
+  - **Theory Contribution**: I reveal the theoretical challenges in the learning of non-autoregressive generators and propose a unified perspective to understand existing training objectives. ([Paper Link](https://arxiv.org/abs/2206.05975))
   - **Empirical Contribution**: I propose a new model that remarkably improves the generation quality of non-autoregressive generators. (*+3 BLEU, outperform the vanilla Transformer and achieve 7~14 times decoding speedup.*)  ([Paper Link](https://arxiv.org/abs/2205.07459))
-  - **Open-source Framework**: Provide highly efficient training and inference with modified [Lightseq](https://github.com/bytedance/lightseq), including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
+  - **Open-source Framework**: I develop a framework with highly efficient training and inference based on [Lightseq](https://github.com/bytedance/lightseq), including operations implemented in *Cuda and multi-threaded C++*. ([Code Link](https://github.com/thu-coai/DA-Transformer))
   - **Two paper published and one patent pending**.
 - **2018.11 - 2020.8 : Leader of Open-Source Toolkit Development for Text Generation**
-  - CoTK toolkit: An open-source python library for fast development and fair evaluation of text generation. ([[Github Link]](https://github.com/thu-coai/cotk), 121 stars.)
+  - CoTK: An open-source python library for fast development and fair evaluation of text generation. ([[Github Link]](https://github.com/thu-coai/cotk), 121 stars.)
   - It provides unified APIs for different datasets, a signature mechanism to avoid unfair comparisons in evaluation, and implementations for many text generation models.
-  - I act as a leader in this project and work with 5 other students of the CoAI group. I design and implement the main framework of the toolkit. 
-- **2019.9 - 2020.9:  Student Author for the Book *Modern Natural Language Generation* **
-  - I wrote Chapter 6 (Generative Adversarial Networks for Language Generation), Chapter 7 (Non-Autoregressive Text Generation), and part of Chapter 10 (Tasks and Resources for Language Generation) and Chapter 11 (Evaluation for Language Generation). I also proofread and revise the other chapters.
+  - I act as a group leader in this project and work with 5 other students of the CoAI group. I design the API, maintain the developing process, and implement parts of the toolkit including dataset I/O, models, and evaluation. 
+- **2019.9 - 2020.9:  Student Author for the Book "Modern Natural Language Generation" **
+  - This book is the first Chinese book that introduces various deep learning methods in natural language generation.
+  - I mainly wrote Chapter 6 (Generative Adversarial Networks for Language Generation), Chapter 7 (Non-Autoregressive Text Generation), and part of Chapter 10 (Tasks and Resources for Language Generation) and Chapter 11 (Evaluation for Language Generation).
 - **2019.9 - Present: Sub-group Leader for Natural Language Generation (NLG) in the CoAI group.**
-  - I mainly coordinate weekly discussions and academic presentations in the sub-group. I actively exchange ideas with the other members and provide suggestions for the research projects.
-  - We have five Ph.D. students and research about non-autoregressive generation model, the bias in language model, long text generation, pretrained language model, and the evaluation of NLG.
-- **2016.4 - 2016.8: Exchange Student at Tokyo University, Japan**
-  - I studied at the department of information science and took courses mainly about machine learning.
-  - Fully sponsored by China Scholarship Council.
+  - Our sub-group has five Ph.D. students and several undergraduates. We aim at resolving the critical problems in NLG. Our research topics include non-autoregressive generation model, the bias in language model, long text generation, pretrained language model, and the evaluation of NLG. Our members publish 17 papers as the first author in this 3 years, including 7 in CCF-A and 3 in CCF-B.
+  - I coordinate weekly discussions and academic presentations in the sub-group. I also help the management of research plans and actively provide suggestions for the projects. I also lead many projects working with undergraduates.
 
 Awards
 =====
 
-* 2018-Present: Scholarship for Future Scholars (Top 3% of Ph.D. Student at Tsinghua University, 30,000 RMB / year)
-* 2015-2017: Academic Excellence Scholarship (3,000 ~ 6,000 RMB / year)
-* 2014: Second Class Scholarship for Undergraduate Freshmen (5,000 RMB / year)
-* 2013: Gold Medal in National Olympiad in Informatics (NOI) (Rank 5)
+* **2018-Present**: Scholarship for Future Scholars (Top 3% of Ph.D. Student at Tsinghua University, 30,000 RMB / year)
+* **2015-2017**: Academic Excellence Scholarship (3,000 ~ 6,000 RMB / year)
+* **2014**: Second Class Scholarship for Undergraduate Freshmen (20,000 RMB)
+* **2013**: Gold Medal in National Olympiad in Informatics (NOI) (Rank 5)
 
 Skills
 =====
 
-* Programming Language: Python, C++
-* Deep Learning Framework: PyTorch, Tensorflow. I can implement custom operations with Cuda and C++ and maintained a open-source toolkit for language generation.
-* Algorithm: I am good at algorithms and won gold medal in NOI programming contest when I am a high school student. I am familiar with Dynamic Programming, Data Structures, Graph Theory, etc.
-* Language: Chinese (Native Speaker), English (CET-6 518), Japanese (N1 129)
+* **Programming Language**: Python, C++
+* **Skills of Deep Learning**: 
+  * Framework & Library: PyTorch, Tensorflow, Fairseq, LightSeq, etc.
+  * I can implement operations with Cuda to accelerate training and inference.
+* **Algorithm**: I am good at algorithms, e.g., Dynamic Programming, Data Structures, Graph Theory.
+* **Language**: Chinese (Native Speaker), English (CET-6 518), Japanese (JLPT-N1)
 
 Teaching
 =====
 
-* Artificial Neural Network (Undergraduate Course at Tsinghua University):
-	* 2019,2022: Teaching Assistant; 2020,2021: Head TA
-	* Help the professor in preparing slides and homework. Give lessons about generative adversarial network and text generation.
-
-* Object-Oriented Programming (Undergraduate Course at Tsinghua University):
+* **Artificial Neural Network** (Undergraduate Course at Tsinghua University):
+	* 2018,2021: Teaching Assistant; 2019,2020: Head TA
+	* Give lessons about generative adversarial network and text generation.
+* Help the professor in preparing slides and homework. 
+	
+* **Object-Oriented Programming** (Undergraduate Course at Tsinghua University):
 	* 2018: Teaching Assistant; 2019-2021: Head TA; 2022: Honorary TA
-	* Help the professor in preparing slides, homework, and examinations. Develop and maintain a website for online programming exercise.
+	* Give lessons about the basic of programming and operation system.
+	* Help the professor in preparing slides, homework, and examinations.
+	* Develop and maintain a website for online programming exercise.
 
 
 Services
 =====
 
-* Conference Reviewer: ACL/ARR(2021-2022), EMNLP(2021-2022), NLPCC(2022)
-* Journal Reviewer: TNNLS, TASLP
+* **Conference Reviewer**: ACL/ARR(2021-2022), EMNLP(2021-2022), NLPCC(2022)
+* **Journal Reviewer**: TNNLS, TASLP
 
 
