@@ -31,7 +31,7 @@ Publications
 * **Fei Huang**, Tianhua Tao, Hao Zhou, Lei Li, Minlie Huang. *On the Learning of Non-Autoregressive Transformers.* **ICML 2022 (CCF-A, Long Paper).** [[Paper]](https://arxiv.org/abs/2206.05975)
 * **Fei Huang**, Zikai Chen, Chen Henry Wu, Qihan Guo, Xiaoyan Zhu, Minlie Huang. *NAST: A Non-Autoregressive Generator with Word Alignment for Unsupervised Text Style Transfer.* **Findings of ACL 2021 (Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/2021.findings-acl.138/) [[Code]](https://github.com/thu-coai/NAST)
 * Yilin Niu#, **Fei Huang#**, Jiaming Liang, Wenkai Chen, Xiaoyan Zhu, Minlie Huang. *A Semantic-based Method for Unsupervised Commonsense Question Answering.* **ACL 2021 (Co-first Author, CCF-A, Long Paper).** [[Paper]](https://aclanthology.org/2021.acl-long.237/) [[Code]](https://github.com/heyLinsir/Semantic-based-QA)
-* Pei Ke#, **Fei Huang#**, Minlie Huang, Xiaoyan Zhu. *ARAML: A Stable Adversarial Training Framework for Text Generation.* **ACL 2021 (Co-first Author, CCF-A, Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/D19-1436/) [[Code]](https://github.com/kepei1106/ARAML)
+* Pei Ke#, **Fei Huang#**, Minlie Huang, Xiaoyan Zhu. *ARAML: A Stable Adversarial Training Framework for Text Generation.* **EMNLP 2019 (Co-first Author, CCF-B, Long Paper, Patent Pending).** [[Paper]](https://aclanthology.org/D19-1436/) [[Code]](https://github.com/kepei1106/ARAML)
 
 **Journal Paper**
 
